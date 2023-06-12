@@ -1,14 +1,15 @@
-import styled from "styled-components";
-
-const Todoinput = styled.input`
-    color: green;
-    background-color: white;
-`
+import React from 'react';
+// import {useState} from 'react';
 
 const CreateTodo =() => {
-    <div>
-        <Todoinput />
-    </div>
+    // const [inputValue, setInputValue] = useState();
+
+    return (
+        <div>
+            <input />
+        </div>
+    )
+
 
 }
 
